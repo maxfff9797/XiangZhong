@@ -22,12 +22,12 @@ type:byte(NewsFlow Array)
 type:string  
 lenght:16 char  
 formet:digit+words
-* NewsFlowName  
+* NewsFlowTitle  
 type:string
 * NewsFlowList  
 type:object(News Array)
 ## 3.News Object
-* NewsName  
+* NewsTitle   
 type:string
 * NewsURL  
 type:string
