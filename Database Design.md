@@ -14,10 +14,11 @@ The Database should include two part,one is the user account list,which include 
  User's self info(type:string)
 * FollowList : 
  List of NewsID that User has Followed(type:list or string)
-# 3.News List
-* NewsID : 
+## 3.NewsFlow List
+* NewsFlowID : 
  everynews has it ownid ,its a 32 lenght string,mix by digit and words
 (type:string)
-* NewsTitle : 
- title of the news object(type:string)
-* NewsList : 
+* NewsFlowTitle : 
+ title of the newsflow object(type:string)
+* NewsFlowList : 
+ a list of News(include Newstitle and NewsURL)(type:byte)
