@@ -16,14 +16,18 @@ lenght:3-10
 type:string  
 lenght:150
 * FollowList
-type:byte(Newslist Array)
-## 2.NewsList Object
-* NewsID  
+type:byte(NewsFlow Array)
+## 2.NewsFlow Object
+* NewsFlowID  
 type:string  
 lenght:16 char  
 formet:digit+words
+* NewsFlowName  
+type:string
+* NewsFlowList  
+type:object(News Array)
+## 3.News Object
 * NewsName  
 type:string
-* NewsFlow  
-type:object(News Array)
-
+* NewsURL  
+type:string
